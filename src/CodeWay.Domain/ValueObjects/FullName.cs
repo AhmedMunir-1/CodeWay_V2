@@ -9,7 +9,7 @@ public sealed class FullName : BaseValueObject
     public string FirstName { get; }
     public string LastName { get; }
 
-    private FullName() { }  // EF Core ctor
+    private FullName() { FirstName = null!; LastName = null!; }  // EF Core ctor
     private FullName(string firstName, string lastName)
     {
         FirstName = firstName;

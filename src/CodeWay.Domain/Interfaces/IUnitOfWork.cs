@@ -1,5 +1,7 @@
 namespace CodeWay.Domain.Interfaces;
 
+using CodeWay.Domain.Common;
+
 /// <summary>
 /// Unit of Work contract — wraps all repositories under a single transaction.
 /// One <see cref="SaveChangesAsync"/> call per HTTP request ensures atomicity.
@@ -20,6 +22,9 @@ public interface IUnitOfWork : IDisposable
     Repositories.IReviewRepository Reviews { get; }
     Repositories.INotificationRepository Notifications { get; }
     Repositories.ICouponRepository Coupons { get; }
+
+    /// <summary>Gets a generic repository for any entity inheriting from BaseEntity.</summary>
+    IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity;
 
     // ── Persistence ──────────────────────────────────────────────────────────
 

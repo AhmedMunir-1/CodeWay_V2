@@ -8,8 +8,10 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
     public ApplicationDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-        optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CodeWayDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=CodeWayDB;User ID=sa;Password=StrongPassword123;Encrypt=True;TrustServerCertificate=True;");
+
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }
 }
+

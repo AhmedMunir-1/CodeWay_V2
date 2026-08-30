@@ -17,3 +17,4 @@
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/src/CodeWay.Infrastructure/obj/Debug/net10.0/CodeWay.Infrastructure.pdb
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/src/CodeWay.Infrastructure/obj/Debug/net10.0/CodeWay.Infrastructure.genruntimeconfig.cache
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/src/CodeWay.Infrastructure/obj/Debug/net10.0/ref/CodeWay.Infrastructure.dll
+/Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/src/CodeWay.Infrastructure/obj/Debug/net10.0/CodeWay.Infrastructure.sourcelink.json

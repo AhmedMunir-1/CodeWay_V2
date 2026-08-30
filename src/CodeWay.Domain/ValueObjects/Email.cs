@@ -13,7 +13,7 @@ public sealed class Email : BaseValueObject
 
     public string Value { get; }
 
-    private Email() { }  // EF Core ctor
+    private Email() { Value = null!; }  // EF Core ctor
 
     private Email(string value) => Value = value;
 

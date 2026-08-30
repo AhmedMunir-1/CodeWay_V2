@@ -16,7 +16,7 @@ public sealed class Slug : BaseValueObject
 
     public string Value { get; }
 
-    private Slug() { }  // EF Core ctor
+    private Slug() { Value = null!; }  // EF Core ctor
     private Slug(string value) => Value = value;
 
     public static Slug Of(string value)

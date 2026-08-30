@@ -93,3 +93,4 @@
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/tests/CodeWay.Domain.Tests/obj/Debug/net10.0/CodeWay.Domain.Tests.pdb
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/tests/CodeWay.Domain.Tests/obj/Debug/net10.0/CodeWay.Domain.Tests.genruntimeconfig.cache
 /Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/tests/CodeWay.Domain.Tests/obj/Debug/net10.0/ref/CodeWay.Domain.Tests.dll
+/Users/ahmed/Desktop/ERA .Net Course/Final Project/CodeWaySolution/tests/CodeWay.Domain.Tests/obj/Debug/net10.0/CodeWay.Domain.Tests.sourcelink.json

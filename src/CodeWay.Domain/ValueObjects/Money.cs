@@ -12,7 +12,7 @@ public sealed class Money : BaseValueObject
     public decimal Amount { get; }
     public string Currency { get; }  // ISO 4217 e.g. "USD"
 
-    private Money() { }  // EF Core ctor
+    private Money() { Currency = null!; }  // EF Core ctor
 
     private Money(decimal amount, string currency)
     {
